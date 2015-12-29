@@ -1,6 +1,6 @@
-# MYDPD1.0.3  - 30/08/05 (yes, this is very old, unmaintained, etc)
+# MYDPD1.0.4 
 
-## INTRODUCTION                   
+30/08/05 (yes, this is very old, unmaintained, etc)
                                                                                                                            
 This C++ code implements in three spatial dimensions and periodic boundary conditions
 the mesoscopic model dissipative particle dynamics (DPD). 
