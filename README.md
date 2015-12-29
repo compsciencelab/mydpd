@@ -2,15 +2,16 @@
 
 30/08/05 (yes, this is very old, unmaintained, etc)
                                                                                                                            
-This C++ code implements in three spatial dimensions and periodic boundary conditions
-the mesoscopic model dissipative particle dynamics (DPD). 
-For a short introduction on DPD see the reference [1] below.
+Dissipative particle dynamics (DPD) consists of a set of N particles moving in continuous space. Each particle is defined by its position, momentum and mass m. The dynamics is specified by a set of Langevin equations very similar to the molecular dynamics equations, but where in addition to the conservative forces there are dissipative and fluctuating forces as well. This model is the natural extension of the Brownian dynamics (BD),  but while BD particles interact conserving only mass,  DPD conserves mass and momentum reproducing at larger scales not just the diffusive behavior but also hydrodynamics.
+
+mydpd is a C++  code with periodic boundary conditions in three spatial dimensions. This code is realised under the GPL license, is simple and serial. It contains two integrators for the DPD stochastic equations, a simple DPD velocity Verlet and the stochastic Trotter integrator "DPD-Trotter" derived in the articles: 
+
+G. De Fabritiis, M. Serrano, P. Espanol and P.V. Coveney, Efficient numerical integrators for stochastic models, Physica A 361, 429 (2005). pdf
+
+M. Serrano, G. De Fabritiis, P. Espanol and P. V. Coveney, A stochastic Trotter integration scheme for dissipative particle dynamics, Math. Comput. Simul. 72, 190 (2006).
 
 
 Scientific publications using this code should cite:
-
-[1] G. De Fabritiis, M. Serrano, P. Espanol and P. V. Coveney, 
-    Efficient numerical integrators for stochastic models, to appear Physica A (2005).
 
 @ARTICLE {defabritiis05A,
     authors = " G. {De Fabritiis} and M. Serrano and P. Espa{\~{n}}ol  and P. V. Coveney",
