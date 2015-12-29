@@ -1,4 +1,4 @@
-# MYDPD1.0.3  - 30/08/05
+# MYDPD1.0.3  - 30/08/05 (yes, this is very old, unmaintained, etc)
 
 ## INTRODUCTION                   
                                                                                                                            
